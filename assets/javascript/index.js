@@ -9,12 +9,12 @@ let images = [];
 let time = 5000;
 
 //image lists
-images[0] = "../assets/images/img1.jpg";
-images[1] = "../assets/images/img2.jpg";
-images[2] = "../assets/images/img3.jpg";
-images[3] = "../assets/images/img4.jpg";
-images[4] = "../assets/images/img5.jpg";
-images[5] = "../assets/images/img6.jpg";
+images[0] = "./assets/images/img1.jpg";
+images[1] = "./assets/images/img2.jpg";
+images[2] = "./assets/images/img3.jpg";
+images[3] = "./assets/images/img4.jpg";
+images[4] = "./assets/images/img5.jpg";
+images[5] = "./assets/images/img6.jpg";
 
 //change images
 function changeImg() {
