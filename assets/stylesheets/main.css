@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("../images/img1.jpg");
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 201, 0.666);
+}
+#theMainPage {
+  max-width: 1000px;
+  min-width: 200px;
+  border: 1px rgb(55, 50, 50) solid;
+  margin: 0 auto;
+  background-color: rgba(97, 87, 74, 0.501);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa {
+  padding: 10px;
+  max-width: 47px;
+  max-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: right;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+  background-color: #c13584;
+  color: white;
+}
+.openBtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openBtn:hover {
+  background-color: #444;
+}
+.sidePanel .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+.sidePanel a:hover {
+  color: #f1f1f1;
+}
+.sidePanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidePanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 60px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.input-group {
+  display: flex;
+  position: relative;
+  top: 7px;
+  float: right;
+  flex-wrap: wrap;
+}
+.btn {
+  max-height: 25px;
+  border-radius: 5px;
+}
+.fa-search {
+  padding: 0%;
+  padding-top: 0px;
+}
+.form-control {
+  height: 26px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(197, 181, 160, 0.393);
+}
+#slideShow,
+img {
+  width: 50%;
+  max-height: 325px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+#slide {
+  display: flex;
+}
+hr {
+  margin-top: 0px;
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0px auto;
+  color: black;
+
+  max-width: 300px;
+  min-width: 10px;
+}
+.title:hover {
+  color: rgb(197, 57, 57);
+}
+
+.image-sliderfade {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+.fa-shopping-cart {
+  background-color: white;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
