@@ -34,6 +34,7 @@ window.onload = changeImg();
 //menu open or close
 openBtn.addEventListener("click", function () {
   expendMenu.style.width = "150px";
+  console.log("Hi");
 });
 
 closeBtn.addEventListener("click", function () {
