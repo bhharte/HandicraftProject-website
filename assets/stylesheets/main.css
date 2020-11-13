@@ -4,9 +4,9 @@
 }
 body {
   font-family: "Lato", sans-serif;
-  background-image: url("../images/img1.jpg");
+  /* background-image: url("../images/img1.jpg"); */
   background-repeat: repeat;
-  background-color: rgba(255, 255, 201, 0.666);
+  background-color: black;
 }
 #theMainPage {
   max-width: 1000px;
@@ -102,39 +102,34 @@ body {
   height: 26px;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: rgba(197, 181, 160, 0.393);
+  max-width: 85px;
+  /* background-color: rgba(197, 181, 160, 0.393); */
 }
-#slideShow,
-img {
-  width: 50%;
-  max-height: 325px;
+#slideShow {
+  width: 100%;
+  max-height: 425px;
   min-height: 300px;
   margin: 0 auto;
+}
+img {
+  width: fit-content;
 }
 #slide {
   display: flex;
 }
-hr {
-  margin-top: 0px;
-}
 .title {
   font-family: "Dancing Script", cursive;
-  font-size: 50px;
   display: flex;
+  font-size: 3.12em;
   justify-content: center;
   position: relative;
   margin: 0px auto;
-  color: black;
-
+  color: whitesmoke;
   max-width: 300px;
-  min-width: 10px;
+  min-width: 0px;
 }
 .title:hover {
   color: rgb(197, 57, 57);
-}
-
-.image-sliderfade {
-  display: none;
 }
 
 img {

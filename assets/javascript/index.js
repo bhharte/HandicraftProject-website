@@ -9,6 +9,7 @@ let images = [];
 let time = 5000;
 
 //image lists
+
 images[0] = "./assets/images/img1.jpg";
 images[1] = "./assets/images/img2.jpg";
 images[2] = "./assets/images/img3.jpg";
@@ -19,9 +20,7 @@ images[5] = "./assets/images/img6.jpg";
 //change images
 function changeImg() {
   slideShow.src = images[i];
-  slideShow1.src = images[i + 1];
-  slideShow.className = "fade";
-  slideShow1.className = "fade";
+
   console.log(images[i]);
   if (i < images.length - 1) {
     i += 1;
@@ -34,7 +33,6 @@ window.onload = changeImg();
 //menu open or close
 openBtn.addEventListener("click", function () {
   expendMenu.style.width = "150px";
-  console.log("Hi");
 });
 
 closeBtn.addEventListener("click", function () {
